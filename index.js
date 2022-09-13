@@ -12,7 +12,7 @@ con.on('open', function () {
     console.log("connected to mongo")
 })
 app.use(express.json())
-
+// shdfuahefuhaufhuahefiuyh
 app.use('/uploads',express.static('uploads'));
 
 app.set('view engine', 'ejs');
